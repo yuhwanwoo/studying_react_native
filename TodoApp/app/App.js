@@ -16,7 +16,6 @@ class App extends Component{
         console.log(' Input Value: ', inputValue)
         this.setState({ inputValue })
     }
-    ////////    결과 확인 !!!!!!!!!!!!
     render(){
 
         const { inputValue }=this.state
